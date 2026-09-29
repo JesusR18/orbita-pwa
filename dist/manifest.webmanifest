@@ -1,0 +1,23 @@
+{
+  "name": "Órbita — hábitos, enfoque y diario",
+  "short_name": "Órbita",
+  "description": "Cada hábito es un planeta que orbita tu día. Temporizador Pomodoro con paisajes sonoros, diario de ánimo y estadísticas, todo sin conexión.",
+  "lang": "es",
+  "start_url": "./#orbita",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0B1115",
+  "theme_color": "#0C161D",
+  "categories": ["productivity", "lifestyle", "health"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Empezar a enfocarme", "url": "./#enfoque" },
+    { "name": "Escribir en el diario", "url": "./#diario" }
+  ]
+}
